@@ -5,5 +5,5 @@ Here are the 33 landmarks that Mediapipe models detect:
 
 **Limitations:**
 
-
-Mediapipe models (```BlazePose.Heavy```, ```BlazePose.Full```, and ```BlazePose.Lite```) work best if the person is standing 2-4 meters away from the camera and one major limitation of their model is that this approach only works for single-person pose detection, it’s not applicable for multi-person detection.
+1. Mediapipe models (```BlazePose.Heavy```, ```BlazePose.Full```, and ```BlazePose.Lite```) work best if the person is standing 2-4 meters away from the camera.
+2. Mediapip models always work for single-person pose detection, they're not applicable for multi-person detection.
